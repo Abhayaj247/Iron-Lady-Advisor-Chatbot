@@ -7,20 +7,20 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [AI-Powered Solution](#ai-powered-solution)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [System Architecture](#system-architecture)
-- [AI Integration](#ai-integration)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Project Structure](#project-structure)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Overview](#-overview)
+- [Problem Statement](#-problem-statement)
+- [AI-Powered Solution](#-ai-powered-solution)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [System Architecture](#-system-architecture)
+- [AI Integration](#-ai-integration)
+- [Getting Started](#-getting-started)
+- [API Documentation](#-api-documentation)
+- [Project Structure](#-project-structure)
+- [Environment Variables](#-environment-variables)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ## 🎯 Overview
 
