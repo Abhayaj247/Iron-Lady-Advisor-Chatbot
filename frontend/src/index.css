@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    min-height: 100vh;
+    background-color: #000000;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background: radial-gradient(circle at center, #1e293b 0%, #000000 100%);
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  /* Scrollbar styling for the messages area */
+  .scrollbar-thin::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-slate-100 rounded-full;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-100;
+  }
+}
+
+/* Custom styles for the message container */
+.overflow-y-auto {
+  scrollbar-width: thin;
+  scrollbar-color: #ffff transparent;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile */
+}
